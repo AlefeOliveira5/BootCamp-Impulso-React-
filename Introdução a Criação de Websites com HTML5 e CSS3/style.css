@@ -1,16 +1,28 @@
 body{
     background: rgb(209, 209, 209);
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 .photo {
-    border: 1rem solid gray;
-    border-radius: 3rem;
+    border: 5px solid gray;
+    border-radius: 1rem;
+    width: 30%;
 
 }
 #title, .subtitle, .post_title {
     color: gray;
 }
+#title {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
 
+a {
+    text-decoration: line-through;
+    color: gray;
+}
 .post_title {
     font-size: 1.2rem;
     font-style: italic;
@@ -29,9 +41,17 @@ body{
 
 .post_content {
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image {
     margin-bottom: 1rem;
+    width: 50%;
+}
+
+.contacts_list {
+    list-style-type: none;
+    padding-left: 1.5rem;
 }
